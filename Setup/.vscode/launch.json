@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "http://Kodke003kd03@s3",
+            "request": "launch",
+            "url": "http://Kodke003kd03@s3"
+        }
+    ]
+}
