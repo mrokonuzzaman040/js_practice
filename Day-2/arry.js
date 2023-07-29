@@ -6,3 +6,6 @@ var friendsClass = [6, 7, 8, 9, 10];
 console.log(friendsName[0]);
 
 //all arry element start 0 index number and last index number is arry length -1 
+
+// lenth of arryb friendsAge
+console.log(friendsAge.length);
