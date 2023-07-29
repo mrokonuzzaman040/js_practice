@@ -1,4 +1,4 @@
-var iphoneBudget = 800;
+var iphoneBudget = 1800;
 var myBudget = 800;
 
 if (myBudget >= iphoneBudget) {
