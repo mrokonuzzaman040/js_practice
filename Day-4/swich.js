@@ -1,23 +1,23 @@
 const color = 'black';
 
-// if(color === 'red'){
-//     console.log('Color is red');
-// }
-// else if(color === 'blue'){
-//     console.log('Color is blue');
-// }
-// else if(color === 'green'){
-//     console.log('Color is green');
-// }
-// else if(color === 'yellow'){
-//     console.log('Color is yellow');
-// }
-// else if(color === 'black'){
-//     console.log('Color is black');
-// }
-// else{
-//     console.log('Color is not red, blue, green, yellow, black');
-// }
+if(color === 'red'){
+    console.log('Color is red');
+}
+else if(color === 'blue'){
+    console.log('Color is blue');
+}
+else if(color === 'green'){
+    console.log('Color is green');
+}
+else if(color === 'yellow'){
+    console.log('Color is yellow');
+}
+else if(color === 'black'){
+    console.log('Color is black');
+}
+else{
+    console.log('Color is not red, blue, green, yellow, black');
+}
 
 switch(color){
     case 'red':
