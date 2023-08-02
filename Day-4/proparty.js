@@ -10,9 +10,14 @@ var prnCount = shopingCart.pen;
 
 var penCount2 = shopingCart['pen'];
 
-var propartyName = Object.keys(shopingCart);
+// var propartyName = Object.keys(shopingCart);
 var propartyValue = Object.values(shopingCart);
 
-console.log(propartyName);
-console.log(propartyValue);
+// console.log(propartyName);
+// console.log(propartyValue);
 // console.log(penCount2);
+
+var propartyName = 'books';
+var propartyValue = shopingCart[propartyName];
+
+console.log(propartyValue);
