@@ -12,3 +12,12 @@ var mobile = {
     storage : "16GB",
     camera : "13MP"
 }
+
+var myComputer = {
+    type : "PC",
+    price : 25000,
+    color : "Black",
+    storage : "1TB"
+}
+
+console.log(myComputer);
