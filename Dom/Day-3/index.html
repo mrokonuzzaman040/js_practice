@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 3 | Practice</title>
+</head>
+<body>
+    <h1>Day 3 | Practice</h1>
+<!-- option 1 -->
+    <button onclick="console.log(7)"> Click Me</button>
+    <button onclick="console.log(65)">Another Button</button>
+    <br>
+<!-- option  -->
+    <button onclick="document.body.style.backgroundColor='yollow'">Make me Yollow</button>
+
+    <button onclick="document.body.style.backgroundColor='Green'">Make me Green</button>
+<!-- option 3 -->
+    <button onclick="makeRed()">Make Me Red</button>
+    <br>
+    <button id="make-blue">Make Blue</button>
+    
+<!-- Option 4 -->
+    <button id="make-goldenrod">Make Goldenrod</button>
+
+    <script>
+        document.getElementById('make-goldenrod').addEventListener('click', function(){
+    document.body.style.backgroundColor = 'goldenrod';
+    });
+    </script>
+    <br>
+    
+    <!-- this is script file don't touch it  -->
+    <script src="./js/script.js"></script>
+</body>
+</html>

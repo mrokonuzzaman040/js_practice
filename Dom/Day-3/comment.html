@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment Box</title>
+</head>
+<body>
+    <h1>Please add your Comment Here</h1>
+    <p id="new-comment"></p>
+    <input id="comment-box" type="text">
+    <button id="comment-btn">Comment</button>
+
+    <script>
+        document.getElementById('comment-btn').addEventListener('click', function(){
+            const inputText = document.getElementById('comment-box');
+            const textValue = inputText.value;
+
+            const newComment = document.getElementById('new-comment');
+            newComment.innerText = textValue;
+        })
+    </script>
+</body>
+</html>
