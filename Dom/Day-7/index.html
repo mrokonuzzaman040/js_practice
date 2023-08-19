@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <!--Main Container -->
+        <div class="flex flex-col lg:flex-row">
+            <!-- shape container -->
+            <div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Triangle Cart -->
+                <div class="card w-96 bg-base-100 shadow-xl mt-20">
+                    <figure><img src="./images/triangle.png" alt="triangle" /></figure>
+                    <div class="card-body">
+                      <h2 class="text-center font-bold text-2xl">Triangle</h2>
+                      <p>
+                        <!-- Base Input -->
+                        <input type="number" name="" class="ml-4 border bg-gray-200 text-xl w-24 px-2" id="triangle-base">
+                        <span>cm</span>
+                        
+                        <!-- Hight input -->
+                        <input type="number" name="" class="ml-4 border bg-gray-200 text-xl w-24 px-2" id="triangle-height">
+                        <span>cm</span>
+                      </p>
+                      <p class=" text-center">Area (A) = (0.5) X Base X Height</p>
+                      <p id="result-triangle"></p>
+                      <div class="card-actions">
+                        <button id="btn-triangle" class="btn btn-primary w-full">Calculate</button>
+                      </div>
+                    </div>
+                </div>
+
+                <!-- Rectangle Cart -->
+                <div class="card w-96 bg-base-100 shadow-xl mt-20">
+                  <figure><img src="./images/rectangle.png" alt="triangle" /></figure>
+                  <div class="card-body">
+                    <h2 class="text-center font-bold text-2xl">Rectangle</h2>
+                    <p>
+                      <!-- Base Input -->
+                      <input type="number" name="" class="ml-4 border bg-gray-200 text-xl w-24 px-2" id="triangle-base">
+                      <span>cm</span>
+                      
+                      <!-- Hight input -->
+                      <input type="number" name="" class="ml-4 border bg-gray-200 text-xl w-24 px-2" id="triangle-height">
+                      <span>cm</span>
+                    </p>
+                    <p class="text-center">Area (A) = W X I</p>
+                    <div class="card-actions">
+                      <button class="btn btn-primary w-full">Calculate</button>
+                    </div>
+                  </div>
+              </div>
+
+              <!-- Parallelogram Cart -->
+              <div class="card w-96 bg-base-100 shadow-xl mt-20">
+                <figure><img src="./images/parallelogram.png" alt="triangle" /></figure>
+                <div class="card-body">
+                  <h2 class="text-center font-bold text-2xl">Parallelogram</h2>
+                  <p>
+                    <!-- Base Input -->
+                    <input type="number" name="" class="ml-4 border bg-gray-200 text-xl w-24 px-2" id="triangle-base">
+                    <span>cm</span>
+                    
+                    <!-- Hight input -->
+                    <input type="number" name="" class="ml-4 border bg-gray-200 text-xl w-24 px-2" id="triangle-height">
+                    <span>cm</span>
+                  </p>
+                  <p class=" text-center">Area (A) = (0.5) X Base X Height</p>
+                  <div class="card-actions">
+                    <button class="btn btn-primary w-full">Calculate</button>
+                  </div>
+                </div>
+            </div>
+
+              <!-- Rhombus Cart -->
+              <div class="card w-96 bg-base-100 shadow-xl mt-20">
+                <figure><img src="./images/rhombus.png" alt="triangle" /></figure>
+                <div class="card-body">
+                  <h2 class="text-center font-bold text-2xl">Rhombus</h2>
+                  <p>
+                    <!-- Base Input -->
+                    <input type="number" name="" class="ml-4 border bg-gray-200 text-xl w-24 px-2" id="triangle-base">
+                    <span>cm</span>
+                    
+                    <!-- Hight input -->
+                    <input type="number" name="" class="ml-4 border bg-gray-200 text-xl w-24 px-2" id="triangle-height">
+                    <span>cm</span>
+                  </p>
+                  <p class=" text-center">Area (A) = (0.5) X Base X Height</p>
+                  <div class="card-actions">
+                    <button class="btn btn-primary w-full">Calculate</button>
+                  </div>
+                </div>
+            </div>
+
+
+            <!-- Pentagon Cart -->
+            <div class="card w-96 bg-base-100 shadow-xl mt-20">
+              <figure><img src="./images/pentagon.png" alt="triangle" /></figure>
+              <div class="card-body">
+                <h2 class="text-center font-bold text-2xl">Pentagon</h2>
+                <p>
+                  <!-- Base Input -->
+                  <input type="number" name="" class="ml-4 border bg-gray-200 text-xl w-24 px-2" id="triangle-base">
+                  <span>cm</span>
+                  
+                  <!-- Hight input -->
+                  <input type="number" name="" class="ml-4 border bg-gray-200 text-xl w-24 px-2" id="triangle-height">
+                  <span>cm</span>
+                </p>
+                <p class=" text-center">Area (A) = (0.5) X Base X Height</p>
+                <div class="card-actions">
+                  <button class="btn btn-primary w-full">Calculate</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Ellipse Cart -->
+            <div class="card w-96 bg-base-100 shadow-xl mt-20">
+              <figure><img src="./images/ellipse.png" alt="triangle" /></figure>
+              <div class="card-body">
+                <h2 class="text-center font-bold text-2xl">Ellipse</h2>
+                <p>
+                  <!-- Base Input -->
+                  <input type="number" name="" class="ml-4 border bg-gray-200 text-xl w-24 px-2" id="triangle-base">
+                  <span>cm</span>
+                  
+                  <!-- Hight input -->
+                  <input type="number" name="" class="ml-4 border bg-gray-200 text-xl w-24 px-2" id="triangle-height">
+                  <span>cm</span>
+                </p>
+                <p class=" text-center">Area (A) = (0.5) X Base X Height</p>
+                <div class="card-actions">
+                  <button class="btn btn-primary w-full">Calculate</button>
+                </div>
+              </div>
+            </div>
+
+        </div>
+            <!-- area calculator -->
+            <div class="w-[400px]">
+                <div class="text-4xl">Area Calculator</div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="./scripts/utilitis.js"></script>
+    <script src="./scripts/calculate.js"></script>
+</body>
+</html>
