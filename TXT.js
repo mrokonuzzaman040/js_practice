@@ -1,5 +1,7 @@
+
 const allButton = document.getElementsByClassName("box-btn");
 let total = 0;
+
 function getbtn(data) {
   const flowerName = data.parentNode.childNodes[1].innerText;
   const selectedBox = document.getElementById("selected-box");
